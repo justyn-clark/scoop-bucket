@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "description": "SMALL CLI - Command line interface for the SMALL protocol",
+    "homepage": "https://github.com/justyn-clark/small-dist",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/justyn-clark/small-dist/releases/download/v0.1.0/small_windows_amd64.zip",
+            "hash": "PLACEHOLDER_WINDOWS_AMD64_SHA256"
+        }
+    },
+    "bin": "small.exe",
+    "checkver": {
+        "github": "https://github.com/justyn-clark/small-dist"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/justyn-clark/small-dist/releases/download/v$version/small_windows_amd64.zip"
+            }
+        }
+    }
+}
