@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "SMALL CLI - Command line interface for the SMALL protocol",
     "homepage": "https://github.com/justyn-clark/small-protocol",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justyn-clark/small-protocol/releases/download/v1.0.0/small-protocol_1.0.0_Windows_x86_64.zip",
-            "hash": "5b01667c2b321c00cf657693ec9f03ee30832c090190464f22bcdeb346af3540"
+            "url": "https://github.com/justyn-clark/small-protocol/releases/download/v1.0.1/small-protocol_1.0.1_Windows_x86_64.zip",
+            "hash": "0e7acd63dabe6eec85d57b6656f0af9e9321521f6913fdced39c47f186d0bb74"
         },
         "arm64": {
-            "url": "https://github.com/justyn-clark/small-protocol/releases/download/v1.0.0/small-protocol_1.0.0_Windows_arm64.zip",
-            "hash": "4681744f49d72bf6b80b8540985fa4ae1346c84781ff9ed5823c404c04cebaea"
+            "url": "https://github.com/justyn-clark/small-protocol/releases/download/v1.0.1/small-protocol_1.0.1_Windows_arm64.zip",
+            "hash": "6f47f6fcb460ebb4fd6dbaa1730a4480a783d64cd40e43b27634b2d321323983"
         }
     },
     "bin": "small.exe",
